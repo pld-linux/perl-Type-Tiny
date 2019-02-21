@@ -7,13 +7,13 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Type::Tiny - tiny, yet Moo(se)-compatible type constraint
 Name:		perl-Type-Tiny
-Version:	1.002001
+Version:	1.004004
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/T/TO/TOBYINK/Type-Tiny-%{version}.tar.gz
-# Source0-md5:	9a529fd6524d75e6cbfeb33df5237db9
+# Source0-md5:	a7fe90a6d53d2cd57381e60e682f828f
 URL:		http://search.cpan.org/dist/Type-Tiny/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
