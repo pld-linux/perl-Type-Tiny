@@ -4,7 +4,6 @@
 #
 %define		pdir	Type
 %define		pnam	Tiny
-%include	/usr/lib/rpm/macros.perl
 Summary:	Type::Tiny - tiny, yet Moo(se)-compatible type constraint
 Name:		perl-Type-Tiny
 Version:	1.006000
