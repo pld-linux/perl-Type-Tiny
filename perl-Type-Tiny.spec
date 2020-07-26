@@ -6,13 +6,13 @@
 %define		pnam	Tiny
 Summary:	Type::Tiny - tiny, yet Moo(se)-compatible type constraint
 Name:		perl-Type-Tiny
-Version:	1.006000
+Version:	1.010002
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/T/TO/TOBYINK/Type-Tiny-%{version}.tar.gz
-# Source0-md5:	d0b0ccc7b55cf6c54a2476bf0c264b59
+# Source0-md5:	e6f95814ebff168f747775e7bf320342
 URL:		http://search.cpan.org/dist/Type-Tiny/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -56,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes CREDITS INSTALL NEWS README TODO
+%doc Changes CREDITS INSTALL NEWS README
 %{perl_vendorlib}/Devel/TypeTiny
 %{perl_vendorlib}/Error/TypeTiny.pm
 %{perl_vendorlib}/Error/TypeTiny
