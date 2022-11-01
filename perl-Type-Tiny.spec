@@ -7,13 +7,13 @@
 Summary:	Type::Tiny - tiny, yet Moo(se)-compatible type constraint
 Summary(pl.UTF-8):	Type::Tiny - mały, ale zgodny z Moo(se) moduł ograniczeń typów
 Name:		perl-Type-Tiny
-Version:	1.012004
+Version:	1.016010
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/T/TO/TOBYINK/Type-Tiny-%{version}.tar.gz
-# Source0-md5:	7a1688c4de07a0ed481a1811e5e82e63
+# Source0-md5:	7e235af96b3a154307e5f1667fd85d05
 URL:		https://metacpan.org/dist/Type-Tiny
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -77,12 +77,15 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorlib}/Error/TypeTiny.pm
 %{perl_vendorlib}/Error/TypeTiny
 %{perl_vendorlib}/Eval/TypeTiny.pm
+%dir %{perl_vendorlib}/Eval/TypeTiny
+%{perl_vendorlib}/Eval/TypeTiny/CodeAccumulator.pm
 %{perl_vendorlib}/Test/TypeTiny.pm
 %{perl_vendorlib}/Type
 %{perl_vendorlib}/Types
 %{_mandir}/man3/Devel::TypeTiny::*.3*
 %{_mandir}/man3/Error::TypeTiny*.3*
 %{_mandir}/man3/Eval::TypeTiny.3*
+%{_mandir}/man3/Eval::TypeTiny::CodeAccumulator.3*
 %{_mandir}/man3/Test::TypeTiny.3*
 %{_mandir}/man3/Type::*.3*
 %{_mandir}/man3/Types::*.3*
