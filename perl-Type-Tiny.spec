@@ -7,13 +7,13 @@
 Summary:	Type::Tiny - tiny, yet Moo(se)-compatible type constraint
 Summary(pl.UTF-8):	Type::Tiny - mały, ale zgodny z Moo(se) moduł ograniczeń typów
 Name:		perl-Type-Tiny
-Version:	2.008003
+Version:	2.008004
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	https://www.cpan.org/modules/by-authors/id/T/TO/TOBYINK/Type-Tiny-%{version}.tar.gz
-# Source0-md5:	5c1e5324a04508104ab10e6f3281f35d
+# Source0-md5:	30f6dad7d0eef3b125382daa1376f768
 URL:		https://metacpan.org/dist/Type-Tiny
 BuildRequires:	perl-ExtUtils-MakeMaker >= 6.17
 BuildRequires:	perl-devel >= 1:5.8.1
